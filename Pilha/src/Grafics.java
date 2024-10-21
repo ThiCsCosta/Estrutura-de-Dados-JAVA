@@ -29,6 +29,7 @@ public class Grafics {
         addButton.setPreferredSize(buttonSize);
         popButton.setPreferredSize(buttonSize);
 
+        //Button add
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -40,6 +41,7 @@ public class Grafics {
             }
         });
 
+        //Button remove
         popButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
